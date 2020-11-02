@@ -7,5 +7,6 @@
   </body>
 </html>
 <script>
-  document.getElementById("time").innerHTML = "Time now: " + Date.now()
+  var d = new Date()
+  document.getElementById("time").innerHTML = "Time now: " + d.getHours() + ":" + d.getMinutes()  
 </script>
