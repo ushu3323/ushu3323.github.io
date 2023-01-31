@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/00ff0d6823.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <link rel="stylesheet" href="style/base.css">
+  <link rel="stylesheet" href="style/navbar.css">
+  <link rel="stylesheet" href="style/graph.css">
+  <link rel="stylesheet" href="style/paper.css">
+</head>
+
+<body>
+  <header class="nav">
+    <navbar class="navbar">
+      <ul class="navbar-item-list">
+        <li class="navbar-item">
+          <a class="navbar-link" href="#inicio">Inicio</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="#experiencia">Experiencia</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="#habilidades">Habilidades</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="#formacion">Formación</a>
+        </li>
+      </ul>
+    </navbar>
+  </header>
+
+  <main class="container-md" id="inicio">
+    <div id="main-card" class="card py-5">
+      <h1 class="title typewrite" id="title">
+        Cargando...
+      </h1>
+      <div class="img-wrapper">
+        <img id="foto-perfil" src="" alt="">
+      </div>
+      <section id="datos-personales" class="mb-4">
+        <h2 class="typewrite mb-4" data-text="Datos personales"></h2>
+        <div class="field-grid gy-2">
+          <div class="field-group">
+            <span class="field-name"><i class="fa-solid fa-user"></i> Genero</span>
+            <h5 id="genero" class="field-value">...</h5>
+          </div>
+          <div class="field-group">
+            <span class="field-name"><i class="fa-solid fa-cake-candles"></i> Fecha de nacimiento</span>
+            <h5 id="fecha-nacimiento" class="field-value">...</h5>
+          </div>
+          <div class="col field-group">
+            <span class="field-name"><i class="fa-solid fa-earth-americas"></i> Nacionalidad</span>
+            <h5 id="nacionalidad" class="field-value">...</h5>
+          </div>
+          <div class="col field-group">
+            <span class="field-name"><i class="fa-solid fa-city"></i> Ciudad</span>
+            <h5 id="ciudad" class="field-value">Cargando...</h5>
+          </div>
+          <div class="col field-group">
+            <span class="field-name"><i class="fa-solid fa-house"></i> Dirección</span>
+            <h5 id="direccion" class="field-value">Cargando...</h5>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2 class="mb-4">Contacto</h2>
+        <div class="field-grid">
+          <div class="field-group">
+            <p class="field-name"><i class="fa-solid fa-phone"></i> Numero de telefono</p>
+            <h5 id="numero-telefono" class="field-value">Cargando...</h5>
+          </div>
+          <div class="field-group">
+            <p class="field-name"><i class="fa-solid fa-at"></i> Email</p>
+            <h5 id="email" class="field-value">Cargando...</h5>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="experiencia">
+      <h2 class="mb-5">Experiencia</h2>
+
+      <div class="graph-history py-5">
+        <article class="graph-article">
+          <div class="graph-article--node-container">
+            <button class="node">+</button>
+          </div>
+          <div class="graph-article--content">
+            <p class="text-muted">Abril 2021 - Actualidad</p>
+            <h3>Junior Front-end Developer</h3>
+            <h4>TravelPerk</h4>
+            <div class="graph-article--content-accordion collapse">
+              <div class="graph-article--content-accordion--inner">
+                <ul>
+                  <li>Participar en reuniones de concepto con diseño, producto y UX para alinear la especificaciones de
+                    features.</li>
+                  <li>Desarrollar el Front-End de integraciones con terceros usando Bootstrap, React.js y Docker.</li>
+                  <li>Gestión de incidencias en JIRA y fix de bugs o features detectados en el entorno de pruebas.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="graph-article">
+          <div class="graph-article--node-container">
+            <button class="node">+</button>
+          </div>
+          <div class="graph-article--content">
+            <p class="text-muted">Junio 2020 - Mayo 2021</p>
+            <h3>Desarrollador de software</h3>
+            <h4>Top Developers</h4>
+            <div class="graph-article--content-accordion collapse">
+              <div class="graph-article--content-accordion--inner">
+                <ul>
+                  <li>Colaboración productiva con el equipo de producción para conocer los requisitos y las
+                    especificaciones
+                    empresariales en torno a la gestion de carteras, el análisis y los riesgos.</li>
+                  <li>Codificación eficaz de cambios y alteraciones de software en base a especificaciones de diseño
+                    concretas.</li>
+                  <li>Resolución de problemas complejos utilizando las últimas tecnologías móviles, web y de nube.</li>
+                  <li>Desarrollo y presentación de conclusiones y soluciones a altos ejecutivos y partes interesadas
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="graph-article">
+          <div class="graph-article--node-container">
+            <button class="node">+</button>
+          </div>
+          <div class="graph-article--content">
+            <p class="text-muted">Mayo 2018 - Abril 2020</p>
+            <h3>Desarrollador de software</h3>
+            <h4>Nubelia Tecnologías</h4>
+            <div class="graph-article--content-accordion collapse">
+              <div class="graph-article--content-accordion--inner">
+                <ul>
+                  <li>Abordé eficazmente errores complejos.</li>
+                  <li>Implementacion y actualización de módulos de aplicación bajo la dirección de desarrolladores de
+                    software senior.</li>
+                  <li>Trabajé con éxito tanto a nivel independiente como en equipo.</li>
+                  <li>Realicé tareas de pruebas automatizadas y desarrollé funciones complejas de forma rutinaria</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2 class="mb-5">Habilidades</h2>
+
+      <div class="single-page">
+        <div class="skill-item-container">
+          <div class="skill-item">
+            <i class="fa-brands fa-java fa-3x fa-beat" style="--fa-animation-duration: 3s"></i>
+            <h4 class="mt-4">Java</h4>
+          </div>
+          <div class="skill-item">
+            <i class="fa-brands fa-react fa-3x fa-spin" style="--fa-animation-duration: 3.1s"></i>
+            <h4 class="mt-4">React</h4>
+          </div>
+          <div class="skill-item">
+            <i class="fa-brands fa-js fa-3x fa-bounce"
+              style="--fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1.1; --fa-bounce-jump-scale-y: 2.0; --fa-bounce-land-scale-x: 2; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0; --fa-animation-duration: 5s "></i>
+            <h4 class="mt-4">Javascript</h4>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-database fa-3x fa-bounce" style="--fa-animation-duration: 2s"></i>
+            <h4 class="mt-4">SQL</h4>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-chart-line fa-3x fa-beat" style="--fa-animation-duration: 3.4s"></i>
+            <h4 class="mt-4">Business strategy</h4>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-bullhorn fa-3x fa-shake"
+              style="--fa-animation-duration: 2s; --fa-animation-delay: 5s"></i>
+            <h4 class="mt-4">Leadership</h4>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="formacion">
+      <h2 class="mb-5">Formación Academica</h2>
+      <div class="paper-container">
+        <div class="paper paper-1 text-center">
+          <img src="img/california.png" alt="logo unversidad de california" height="150" class="mb-5">
+          <h3>Bachillerato de Ciencía en Ciencías de la computación</h3>
+          <h4>Universidad de California, Los Angeles</h4>
+          <h4>2015</h4>
+        </div>
+        <div class="paper paper-2 text-center">
+          <img src="img/jarvard.png" alt="logo universidad de harvard" height="100" class="mb-5">
+          <h3>Master en Administración de Negocios</h3>
+          <h4>Harvard Business School</h4>
+          <h4>2018</h4>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="scripts/animation.js"></script>
+  <script src="scripts/index.js"></script>
+  <script>
+    ScrollReveal().reveal('#main-card');
+
+    ScrollReveal().reveal('.paper', { distance: '200px', origin: 'right' });
+    ScrollReveal().reveal('.paper', {
+      distance: '200px', origin: 'left', afterReveal: function (el) {
+        el.classList.add('paper-2');
+      }
+    });
+  </script>
+</body>
+
+</html>

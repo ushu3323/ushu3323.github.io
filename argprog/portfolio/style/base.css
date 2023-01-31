@@ -1,0 +1,162 @@
+:root {
+  --black-color: #1a1a1a;
+  --black-alt-color: #323232;
+  --black-on-color: #aaaaaa;
+
+  --primary-color: rgb(0, 21, 46);
+  --primary-alt-color: rgb(0, 36, 80);
+  --primary-on-color: #bbbbbb;
+
+  --secondary-color: orange;
+
+  --final-color: var(--black-color);
+  --final-alt-color: var(--black-alt-color);
+  --final-on-color: var(--black-on-color);
+
+  --profile-image-height: 20em;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8em;
+  color: var(--final-on-color);
+  font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 5em;
+  background-color: var(--final-color);
+  font-family: inherit;
+  color: inherit;
+  transition: all 700ms ease-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: inherit;
+  font-weight: bold;
+}
+
+main {
+  padding: 15em 0;
+}
+
+#main-card {
+  margin-bottom: 10em;
+}
+
+.single-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 30em;
+  height: 80vh;
+}
+
+.loaded {
+  --final-color: var(--primary-color);
+  --final-alt-color: var(--primary-alt-color);
+  --final-on-color: var(--primary-on-color);
+}
+
+.text-muted {
+  color: #777777;
+}
+
+.typewrite-wrapper {
+  border-right: 1em solid var(--final-on-color);
+}
+
+.field-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+}
+
+.field-group {
+  min-width: max-content;
+  height: 5em;
+}
+
+.field-name {
+  margin: 0.5em 0;
+  color: #777777;
+}
+
+.field-value {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20em;
+  margin: 3em;
+}
+
+.img-wrapper img {
+  height: 0em;
+  border-radius: 50%;
+  animation: bounce 1.4s ease-in-out forwards;
+}
+
+.loaded .img-wrapper img {
+  height: inherit;
+}
+
+@keyframes bounce {
+  0% {
+    height: 0em;
+  }
+
+  40% {
+    height: 21em;
+  }
+
+  75% {
+    height: 18.2em;
+  }
+}
+
+.card {
+  border: initial;
+  background-color: var(--final-alt-color);
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  transition: background-color 400ms ease-out;
+}
+
+.skill-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 20em;
+  align-content: space-around;
+
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  text-align: center;
+}

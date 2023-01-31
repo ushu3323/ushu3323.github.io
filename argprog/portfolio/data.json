@@ -1,0 +1,91 @@
+{
+  "gender": "male",
+  "name": {
+    "title": "Mr",
+    "first": "Tim",
+    "last": "Riley"
+  },
+  "location": {
+    "street": {
+      "number": 7725,
+      "name": "Church Street"
+    },
+    "city": "Londonderry",
+    "state": "Fife",
+    "country": "United Kingdom"
+  },
+  "email": "tim.riley@example.com",
+  "dob": {
+    "date": "1955-01-12T13:42:42.545Z",
+    "age": 68
+  },
+  "phone": "016974 77110",
+  "cell": "07117 120462",
+  "picture": "https://randomuser.me/api/portraits/men/24.jpg",
+  "nat": "GB",
+  "experience": [
+    {
+      "job_title": "Junior Front-end Developer",
+      "company": "TravelPerk",
+      "start_date": "abril 2021",
+      "end_date": "actualidad",
+      "responsibilities": [
+        "Participar en reuniones de concepto con diseño, producto y UX para alinear la especificaciones de features",
+        "Desarrollar el Front-End de integraciones con terceros usando Bootstrap, React.js y Docker.",
+        "Gestión de incidencias en JIRA y fix de bugs o features detectados en el entorno de pruebas."
+      ]
+    },
+    {
+      "job_title": "Desarrollador de software",
+      "company": "Top Developers",
+      "start_date": "junio 2020",
+      "end_date": "mayo 2021",
+      "responsibilities": [
+        "Colaboración productiva con el equipo de producción para conocer los requisitos y las especificaciones empresariales en torno a la gestion de carteras, el análisis y los riesgos.",
+        "Codificación eficaz de cambios y alteraciones de software en base a especificaciones de diseño concretas.",
+        "Resolución de problemas complejos utilizando las últimas tecnologías móviles, web y de nube.",
+        "Desarrollo y presentación de conclusiones y soluciones a altos ejecutivos y partes interesadas"
+      ]
+    },
+    {
+      "job_title": "Desarrollador de software",
+      "company": "Nubelia Tecnologías",
+      "start_date": "mayo 2018",
+      "end_date": "abril 2020",
+      "responsibilities": [
+        "Abordé eficazmente errores complejos.",
+        "Implementacion y actualización de módulos de aplicación bajo la dirección de desarrolladores de software senior.",
+        "Trabajé con éxito tanto a nivel independiente como en equipo.",
+        "Realicé tareas de pruebas automatizadas y desarrollé funciones complejas de forma rutinaria"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachillerato de Ciencía en Ciencías de la computación",
+      "university": "Universidad de California, Los Angeles",
+      "graduation_year": "2015"
+    },
+    {
+      "degree": "Master en Administración de Negocios",
+      "university": "Harvard Business School",
+      "graduation_year": "2018"
+    }
+  ],
+  "skills": [
+    "Java",
+    "React",
+    "JavaScript",
+    "SQL",
+    "Business strategy",
+    "Leadership"
+  ],
+  "certifications": [
+    "Oracle Certified Java Developer",
+    "Project Management Professional (PMP)"
+  ],
+  "languages": [
+    "Ingles (fluido)",
+    "Español (nativo)"
+  ]
+}

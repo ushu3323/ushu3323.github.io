@@ -1,0 +1,60 @@
+.paper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 20em;
+  justify-content: center;
+}
+
+.paper {
+  padding: 2em;
+  margin: 0 0;
+  margin-bottom: 2em;
+  border-radius: 4px;
+  color: gray;
+  background-color: bisque;
+  max-width: 50em;
+}
+
+.paper-1 {
+  animation: floating 8s ease-in-out infinite;
+  transition: all 1s ease-in;
+}
+
+.paper:hover {
+  animation-play-state: paused;
+  animation-name: none;
+  scale: 1;
+}
+
+.paper-2 {
+  animation: floating 10s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    scale: 1;
+    transform: rotate(1deg);
+  }
+
+  25% {
+    scale: 1.01;
+  }
+
+  50% {
+    scale: 1;
+  }
+
+  60% {
+    transform: rotate(-1deg);
+  }
+
+  75% {
+    scale: 1.01;
+  }
+
+  100% {
+    scale: 1;
+    transform: rotate(1deg);
+  }
+}
